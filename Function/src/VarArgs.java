@@ -10,7 +10,7 @@ public class VarArgs {
 
     static void multiple(int a,int b,String ...v){
         //variable length arguments must be in last
-        System.out.println(v[1]);
+        System.out.println(b);
     }
 
     static void infinite(int ...v){
